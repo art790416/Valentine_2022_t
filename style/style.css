@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.bg {
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.FV {
+    background-image: url(../img_PC/Valentine_PC_01.jpg);
+}
+
+.lang {
+    display: block;
+    width: 15%;
+    position: absolute;
+    top: 4.5%;
+    left: 17%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.FV a:hover img {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+
+/* .FV .overlay-btn {
+    width: 12vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 997;
+    filter: drop-shadow(5px 5px 10px rgba(122, 16, 69, 0.5));
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1700px) {
+    .FV .overlay-btn {
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1399px) {
+    .FV .overlay-btn {
+        width: 25vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .FV .overlay-btn {
+        width: 30vw;
+    }
+} */
+
+.sec_02 {
+    background-image: url(../img_PC/Valentine_PC_02.jpg);
+}
+
+.sec_03 {
+    background-image: url(../img_PC/Valentine_PC_03.jpg);
+}
+
+.sec_04 {
+    background-image: url(../img_PC/Valentine_PC_04.jpg);
+}
+
+.sec_05 {
+    background-image: url(../img_PC/Valentine_PC_05.jpg);
+}
+
+.sec_06 {
+    background-image: url(../img_PC/Valentine_PC_06.jpg);
+}
+
+.sec_07 {
+    background-image: url(../img_PC/Valentine_PC_07.jpg);
+}
+
+.sec_08 {
+    background-image: url(../img_PC/Valentine_PC_08.jpg);
+}
+
+.sec_08 .videobox {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-bottom: 56.25%;
+}
+
+.sec_08 .videobox iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sec_09 {
+    background-image: url(../img_PC/Valentine_PC_09.jpg);
+}
+
+.sec_10 {
+    background-image: url(../img_PC/Valentine_PC_10.jpg);
+}
+
+.sec_11 {
+    background-image: url(../img_PC/Valentine_PC_11.jpg);
+}
+
+.sec_12 {
+    background-image: url(../img_PC/Valentine_PC_12.jpg);
+}
+
+.BTN {
+    display: block;
+    width: 70%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.BTN01 {
+    top: 89%;
+    left: 50%;
+}
+
+.BTN02 {
+    top: 88%;
+    left: 50%;
+}
+
+.BTN03 {
+    top: 74%;
+    left: 50%;
+}
+
+.sec_10 a img,
+.sec_11 a img {
+    -webkit-animation: beat 0.6s infinite;
+    animation: beat 0.6s infinite;
+}
+
+.sec_12 a:hover img {
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+@-webkit-keyframes beat {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: scale(1.04);
+    }
+}
+
+@keyframes beat {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: scale(1.04);
+    }
+}
